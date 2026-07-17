@@ -1,4 +1,4 @@
-#create a Complete CICD pipeline for a java project using kubernetes, docker, argocd and maven
+# Create a Complete CICD pipeline for a java project using kubernetes, docker, argocd and maven
 name: CICD with Maven, Docker, Argo, kubernetes
 on: push
   branches: [ master ]
