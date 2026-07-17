@@ -44,7 +44,7 @@ jobs:
       - name: Update Helm values and push
         run: |
          cd argocdhelm
-         sed -i "s/^ *tag:.*/tag: ${{ github.run_number }}/" values.yaml
+         sed -i "s/^tag: .*/tag: ${{ github.run_number }}/" values.yaml
          git config --global user.email 'user@example.com'
          git config --global user.name 'GitHub Actions'
          git add values.yaml
